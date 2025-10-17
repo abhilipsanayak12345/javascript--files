@@ -1,0 +1,16 @@
+length():counting every character in a string
+concat():merge
+charAt() // extracting somethings
+charCodeAt()
+codePointAt()
+subString()
+at()
+slice()
+toUpperCase()
+toLowerCase()
+train(),trainStart(),trainEnd()
+repeat()
+replace()
+replaceAll()
+split()
+
