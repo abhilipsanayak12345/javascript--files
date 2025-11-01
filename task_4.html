@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background: white;
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .logo {
+      color: #00BCD4;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      margin: 0 10px;
+    }
+    nav a:hover {
+      color: #00BCD4;
+    }
+    .hero {
+      background: url('flower photo.jpg') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 140px 20px;
+    }
+    .hero h1 {
+      font-size: 40px;
+    }
+    .hero span {
+      color: #00BCD4;
+    }
+    .hero button {
+      margin-top: 20px;
+      background: #00BCD4;
+      border: none;
+      padding: 10px 20px;
+      color: white;
+      cursor: pointer;
+    }
+    .section {
+      display: flex;
+      justify-content: space-around;
+      padding: 50px 20px;
+    }
+    .left {
+      width: 50%;
+    }
+    .right img {
+      width: 180px;
+      border-radius: 50%;
+    }
+    .info p {
+      margin: 5px 0;
+    }
+    .download {
+      background: #00BCD4;
+      color: white;
+      border: none;
+      padding: 8px 15px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">MATERIAL<span style="color:#333;">X</span></div>
+    <nav>
+      <a href="#">About</a>
+      <a href="#">Resume</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>HI! I'M <span>Abhilipsa</span></h1>
+    <p>UX/UI DESIGNER FROM BBSR, ODISHA</p>
+    <button onclick="alert('Thank you for your interest!')">HIRE ME</button>
+  </div>
+
+  <div class="section">
+    <div class="left">
+      <h2 style="color:#00BCD4;">MY STORY</h2>
+      <p>Hello, I'm a UX/UI Designer & Front-End Developer. I love creating clean and modern designs.</p>
+      <button class="download">Download Resume</button>
+    </div>
+    <div class="right">
+      <img src="abhilipsa.jpg" alt="Profile">
+      <div class="info">
+        <p><b>Name:</b> Abhilipsa Nayak</p>
+        <p><b>Age:</b> 19 Years</p>
+        <p><b>Email:</b> abhilipsanayak618@gmail.com</p>
+        <p><b>Address:</b> Chandbali, Bhadrak</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
